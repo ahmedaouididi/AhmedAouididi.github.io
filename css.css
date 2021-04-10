@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&family=Ubuntu:wght@300&display=swap');
+
+body{
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+.navbar {
+  margin-top: 0;
+  margin-bottom: 0%;
+  position: fixed;
+  width: 100%;
+ 
+  background-color: #c60021;
+  
+}
+
+
+.navbar li{
+    list-style-type: none;
+    display:inline-block;
+    margin:10px 60px 20px 50px;
+}
+.navbar li a {
+margin-left: 15px;
+    text-decoration: none;
+    color:#f6f6f8;
+    font-size: 25px;
+   font-family: 'font-family: 'Ubuntu', sans-serif';}
+   
+
+   
+
+ .bg-image {
+    
+    height: 600px;
+  margin-top: 0px; 
+  padding: 50px;
+    
+  }
+  .img1 { 
+    
+   background-color: #e3e3e3;
+      }
+    .img2 {  background-color:#f6f6f8;
+
+      height: 1000px;
+         }
+ 
+.card {
+  
+ 
+  margin-top: 152px;
+  
+
+
+  }
+  .incard p {
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Bubbler One', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+
+  .anim{
+    width:350px;
+    height: 350px;
+    
+    
+}
+
+
+
+
+
+.grid{
+ 
+  display: grid;
+  grid-template-columns:30% 30% 30%  ;
+  grid-gap: 12px;
+
+}
+.box
+ 
+{  width:220px;
+	padding:35px 35px 35px 35px;
+	margin:10% 30% 0% 10%;
+
+border-radius: 64px;
+background: #f6f6f8;
+box-shadow:  33px 33px 63px #949495,
+             -33px -33px 63px #ffffff;
+
+}
+
+  
+
+
+
+.box h4{
+  color: #c60021;
+  font-size: 25px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.grid-img{ display: grid;
+  grid-template-columns:25% 25% 25% 25%  ;
+  grid-gap: 12px;
+  margin-top: 20px;
+
+}
+
+.grid1{
+ 
+  display: grid;
+  grid-template-columns:50% 50%  ;
+  grid-gap: 20px;
+
+}
+.box1
+{  width:250px;
+  height: 420px;
+	padding:50px 150px 50px 50px;
+	margin:10% 30% 0% 10%;
+
+border-radius: 164px;
+background: #f6f6f8;
+box-shadow:  33px 33px 63px #949495,
+             -33px -33px 63px #ffffff;
+
+}
+
+
+
+
+
+.box1 h4{
+  color: #c60021cc;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  
+}
+.box1 p {
+  
+  margin: 0%;
+  font-size: 20px;
+  text-align: left;
+  height: 12px;
+ 
+
+}
+.button {
+  background-color:#c60021;
+  opacity: 0.8;
+  
+  border: none;
+  color: white;
+  padding: 10px 30px 10 30  ;
+  text-align: center;
+  font-size: 16px;
+  margin-left:  30% ;
+  margin-top: 154px;
+  cursor: pointer;
+}
+
+.grid3{
+ 
+  display: grid;
+  grid-template-columns:30% 30% 30%  ;
+  grid-gap: 80px;
+
+}
+.box3
+{  width:40px;
+  height: 40px;
+	padding:35px 35px 35px 35px;
+	margin:10% 30% 0% 10%;
+
+border-radius: 164px;
+background: #f6f6f8;
+box-shadow:  33px 33px 63px #949495,
+             -33px -33px 63px #ffffff;
+
+}
+.box3 h4{
+  color: #c60021cc;
+  font-size: 25px;
+  text-align: center;
+ text-shadow: #c60021;
+  margin: -5px;
+ 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  
+}
+#contact h4{
+  color: #c60021cc;
+  font-size: 50px;
+  text-align: center;
+ font-weight: lighter;
+ padding: auto;
+  
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.box4
+{  width:450px;
+  height: 420px;
+	padding:50px 150px 50px 50px;
+
+
+border-radius: 164px;
+background: #f6f6f8;
+box-shadow:  33px 33px 63px #949495,
+             -33px -33px 63px #ffffff;
+
+}
+.social-icons {
+  text-align: center;
+  }  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+ 
+  }
+.social-icons li a {
+  border-bottom: none;
+  
+  }
+.social-icons li img {
+  width:70px;
+  height:70px;
+  margin-right: 20px;
+}
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
